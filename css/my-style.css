@@ -20,7 +20,7 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top{
 }
 
 .hero-image {
-	background-image: url("../image/home1.png");
+	background-image: url("/image/home1.png");
 
 	background-position: center;
 	background-repeat: no-repeat;
