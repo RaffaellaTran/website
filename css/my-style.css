@@ -242,8 +242,9 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top{
 	margin-left: 50px;
 }
 
-
-
+.portfolio-item .caption .tecnology {
+	display: none;
+}
 .portfolio-item img {
 	-webkit-transition: -webkit-clip-path 0.25s ease-out;
 	-webkit-clip-path: inset(-1px);
@@ -252,14 +253,24 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top{
 }
 
 .portfolio-item:hover img {
-	-webkit-clip-path: inset(2rem);
-	clip-path: inset(2rem);
+	-webkit-clip-path: inset(1rem);
+	clip-path: inset(1rem);
+	opacity: 1;
 }
 
-.portfolio-item:hover .caption {
-	background-color: rgba(29, 128, 159, 0.9);
-	-webkit-clip-path: inset(2rem);
-	clip-path: inset(2rem);
+
+.portfolio-item:hover .caption{
+	-webkit-clip-path: inset(1rem);
+	clip-path: inset(1rem);
+	background-color: rgba(29, 128, 159, 1);
+	
+}
+.portfolio-item:hover .caption> .tecnology {
+	display: inline;
+	font-size: 16px;
+	font-size: 1.8vh;
+	color: white;
+	margin: 40px 30px 30px 30px ;
 }
 
 /*social media*/
@@ -401,8 +412,11 @@ h1{
 }
 
 .footer{
-	font-size: 23px;
-	padding-bottom: 50px;
+	color: #fff;
+	font-size: 20px;
+	padding: 30px 0 30px;
+	font-weight: bold;
+	background-color: rgba(255, 0, 0,0.7);
 }
 
 .container-fluid.full{
