@@ -309,32 +309,31 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top{
 
 .flipcard.h:hover .front, .flipcard.h.flip .front{
 	transform: rotateY(180deg);
-	 
+
 
 }
 
 .flipcard.h:hover .back, .flipcard.h.flip .back{
 	transform: rotateY(0deg);
 	-webkit-transform: rotateY(0deg);
-         
+
 }
 
 .flipcard.h .back{
 	transform: rotateY(-180deg);
 	-webkit-transform: rotateY(-180deg);
-         
+
 }
 
 .flipcard .front, .flipcard .back {
 	position:absolute;
-	transition: all 0.5s ease-in;
-	backface-visibility: hidden;
-	 -webkit-backface-visibility: hidden;
-         backface-visibility: hidden;
- -webkit-transition: 0.6s;
-         transition: 0.6s;
- -webkit-transform-style: preserve-3d;
-         transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+	-webkit-transition: all 0.5s ease-in;
+			transition: all 0.5s ease-in;
+	
+	/*-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;*/
 }
 
 
