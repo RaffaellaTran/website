@@ -7,7 +7,7 @@ body{
 }
 
 nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top{
-	background-color: #004b82 !important ;
+	background-color: #004b82b5 !important ;
 }
 
 /*loader*/
@@ -165,7 +165,8 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top{
 
 .hero-image {
 
-	background-image: url("../image/home.png");
+	background-image: url("../image/home1.png");
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.33);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-clip:content-box;
@@ -176,13 +177,15 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top{
 
 .hero-text {
 	text-align: center;
+	font-weight: bold;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: white;
-	text-shadow: 5px 6px 4px #000000;
-	font-size: 70px;
+	color: #ffffffe7 !important;
+	text-shadow: 5px 6px 4px 0000009e;
+	font-size: 75px;
+	font-size: 6vh;
 }
 
 .about-text{
